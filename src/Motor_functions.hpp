@@ -1,3 +1,0 @@
-void axis_forward() {
-  
-}
