@@ -2,6 +2,14 @@
 #include "Axis.hpp"
 #include "Hardware.hpp"
 
+    // motors
+    Motor axis1_motor;
+    // encoders
+    Encoder axis1_encoder1;
+    Encoder axis1_encoder2;
+    // limitswitches
+    Limitswitch axis1_limitswitch;
+
 Axis axis1;
 Axis axis2;
 // Axis axis1;
