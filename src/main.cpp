@@ -15,8 +15,16 @@
 // define axes
 Axis axis1;
 Axis axis2;
-// Axis axis1;
-// axis1.define_motor_pins(2,3);
+
+// movement example demo
+void movement_demo() {
+  axis1.forward()   ; axis2.forward() ; delay(1000);
+  axis1.forward()   ; axis2.stop()    ; delay(1000);
+  axis1.stop()      ; axis2.forward() ; delay(1000);
+  axis1.backward()  ; axis2.stop()    ; delay(1000);
+  axis1.stop()      ; axis2.backward(); delay(1000);
+  axis1.backward()  ; axis2.backward(); delay(1000);
+}
 
 // setup code
 void setup() {
@@ -35,12 +43,5 @@ void setup() {
 
 // main loop
 void loop() {
-  axis1.forward()   ; axis2.forward() ; delay(1000);
-  axis1.forward()   ; axis2.stop()    ; delay(1000);
-  axis1.stop()      ; axis2.forward() ; delay(1000);
-  axis1.backward()  ; axis2.stop()    ; delay(1000);
-  axis1.stop()      ; axis2.backward(); delay(1000);
-  axis1.backward()  ; axis2.backward(); delay(1000);
-  // digitalWrite(2,LOW);
-  // digitalWrite(3,HIGH);
+  movement_demo();
 }
