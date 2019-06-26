@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "Axis.hpp"
+#include "Hardware.hpp"
 
 Axis axis1;
 Axis axis2;
