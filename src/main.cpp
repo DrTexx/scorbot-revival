@@ -5,7 +5,7 @@
 
 // define hardware
     // motors
-    Motor axis1_motor;
+    Motor axis1_motor(2,3);
     // encoders
     Encoder axis1_encoder1;
     Encoder axis1_encoder2;
@@ -34,9 +34,6 @@ void setup() {
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
   pinMode(5,OUTPUT);
-  // configure axes
-  axis1.define_motor_pins(2,3);
-  axis2.define_motor_pins(4,5);
   // wait a moment before begining loop (to prevent uploads instantly moving the arm)
   delay(2000);
 }

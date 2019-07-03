@@ -11,6 +11,11 @@ class Motor
 {
   int pin1;
   int pin2;
+public:
+  Motor(int _pin1, int _pin2) {
+    pin1 = _pin1;
+    pin2 = _pin2;
+  }
 };
 
 class Limitswitch
