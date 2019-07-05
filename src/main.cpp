@@ -24,9 +24,9 @@ void movement_demo() {
 }
 
 void blink_led() {
-  digitalWrite(pin_a1mp1,HIGH);
+  digitalWrite(axis1motorpin1,HIGH);
   delay(1000);
-  digitalWrite(pin_a1mp1,LOW);
+  digitalWrite(axis1motorpin1,LOW);
   delay(1000);
 }
 
