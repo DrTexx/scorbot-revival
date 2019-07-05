@@ -29,8 +29,6 @@ void setup() {
   // set pinModes
   pinMode(axis1motorpin1,OUTPUT);
   pinMode(axis1motorpin2,OUTPUT);
-  pinMode(4,OUTPUT);
-  pinMode(5,OUTPUT);
   // wait a moment before begining loop (to prevent uploads instantly moving the arm)
   delay(2000);
 }
