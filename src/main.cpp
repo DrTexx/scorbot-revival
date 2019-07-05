@@ -8,11 +8,6 @@ const int axis1motorpin2 = 3;
 // define hardware
     // motors
     Motor axis1_motor(axis1motorpin1,axis1motorpin2);
-    // encoders
-    Encoder axis1_encoder1;
-    Encoder axis1_encoder2;
-    // limitswitches
-    Limitswitch axis1_limitswitch;
 
 // define axes
 Axis axis1;
