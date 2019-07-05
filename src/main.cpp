@@ -2,10 +2,12 @@
 #include "Axis.hpp"
 #include "Hardware.hpp"
 
+const int axis1motorpin1 = 2;
+const int axis1motorpin2 = 3;
 
 // define hardware
     // motors
-    Motor axis1_motor(2,3);
+    Motor axis1_motor(axis1motorpin1,axis1motorpin2);
     // encoders
     Encoder axis1_encoder1;
     Encoder axis1_encoder2;
@@ -30,8 +32,8 @@ void movement_demo() {
 void setup() {
   Serial.begin(9600);
   // set pinModes
-  pinMode(2,OUTPUT);
-  pinMode(3,OUTPUT);
+  pinMode(axis1motorpin1,OUTPUT);
+  pinMode(axis1motorpin2,OUTPUT);
   pinMode(4,OUTPUT);
   pinMode(5,OUTPUT);
   // wait a moment before begining loop (to prevent uploads instantly moving the arm)
