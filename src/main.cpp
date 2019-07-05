@@ -23,6 +23,13 @@ void movement_demo() {
   axis1.backward()  ; axis2.backward(); delay(1000);
 }
 
+void blink_led() {
+  digitalWrite(pin_a1mp1,HIGH);
+  delay(1000);
+  digitalWrite(pin_a1mp1,LOW);
+  delay(1000);
+}
+
 // setup code
 void setup() {
   Serial.begin(9600);
