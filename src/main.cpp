@@ -2,8 +2,8 @@
 #include "Axis.hpp"
 #include "Hardware.hpp"
 
-const int axis1motorpin1 = 2;
-const int axis1motorpin2 = 3;
+const int axis1motorpin1 = 15;
+const int axis1motorpin2 = 2;
 
 // define hardware
     // motors
