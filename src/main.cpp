@@ -42,5 +42,6 @@ void setup() {
 
 // main loop
 void loop() {
+  // blink_led();
   movement_demo();
 }
