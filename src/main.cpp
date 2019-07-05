@@ -32,7 +32,7 @@ void blink_led() {
 
 // setup code
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(19200);
   // set pinModes
   pinMode(axis1motorpin1,OUTPUT);
   pinMode(axis1motorpin2,OUTPUT);
