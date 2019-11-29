@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name L293D)(type KiCad)(uri ${KIPRJMOD}/project_specific_libraries/L293D/L293D.pretty)(options "")(descr ""))
   (lib (name LibraryLoader)(type KiCad)(uri /home/denver/github/scorbot-revival/pcb/scorbot-revival/project_specific_libraries/LibraryLoaderOutput/SamacSys_Parts.pretty)(options "")(descr ""))
-  (lib (name PIC16CE625-04I/P)(type KiCad)(uri /home/denver/github/scorbot-revival/pcb/scorbot-revival/project_specific_libraries/ul_PIC16CE62504IP/footprints.pretty)(options "")(descr ""))
+  (lib (name PIC18F2431-E_SP)(type KiCad)(uri ${KIPRJMOD}/project_specific_libraries/PIC18F2431-E_SP/PIC18F2431-E_SP.pretty)(options "")(descr ""))
 )

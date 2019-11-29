@@ -36,17 +36,6 @@ F 3 "" H 3025 2100 60  0000 C CNN
 	1    3025 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 J2
-U 1 1 5DE8F286
-P 5850 3700
-F 0 "J2" H 5850 5181 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 5850 5090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5850 3700 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5850 3700 50  0001 C CNN
-	1    5850 3700
-	1    0    0    -1  
-$EndComp
 Text Label 2850 2700 2    25   ~ 0
 M1-
 Text Label 2850 2650 2    25   ~ 0
@@ -131,27 +120,43 @@ Text Label 3200 1750 0    25   ~ 0
 M5_LOGIC_MS
 Text Label 3200 2550 0    25   ~ 0
 Grp_LOGIC_MS
-Text Label 5450 5000 3    25   ~ 0
+Text Label 4850 7250 3    25   ~ 0
 M1_LOGIC_GND
-Text Label 5550 5000 3    25   ~ 0
+Text Label 4950 7250 3    25   ~ 0
 M2_LOGIC_GND
-Text Label 5650 5000 3    25   ~ 0
+Text Label 5050 7250 3    25   ~ 0
 M3_LOGIC_GND
-Text Label 5750 5000 3    25   ~ 0
+Text Label 5150 7250 3    25   ~ 0
 M4_LOGIC_GND
-Text Label 5850 5000 3    25   ~ 0
+Text Label 5250 7250 3    25   ~ 0
 M5_LOGIC_GND
-Text Label 5950 5000 3    25   ~ 0
+Text Label 5350 7250 3    25   ~ 0
 Grp_LOGIC_GND
 $Comp
-L PIC16CE625-04I/P:PIC16CE625-04I_P U2
-U 1 1 5DFA9FB6
-P 7600 3400
-F 0 "U2" H 9100 3787 60  0000 C CNN
-F 1 "PIC16CE625-04I_P" H 9100 3681 60  0000 C CNN
-F 2 "PDIP18_300MC" H 9100 3640 60  0001 C CNN
-F 3 "" H 7600 3400 60  0000 C CNN
-	1    7600 3400
+L PIC18F2431-E_SP:PIC18F2431-E_SP U?
+U 1 1 5E01D5FD
+P 8200 2250
+F 0 "U?" H 8200 3620 50  0000 C CNN
+F 1 "PIC18F2431-E_SP" H 8200 3529 50  0000 C CNN
+F 2 "DIP254P762X508-28" H 8200 2250 50  0001 L BNN
+F 3 "PIC18F2431-E/SP-ND" H 8200 2250 50  0001 L BNN
+F 4 "SPDIP-28 Microchip" H 8200 2250 50  0001 L BNN "Field4"
+F 5 "PIC18F2431-E/SP" H 8200 2250 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/PIC18F2431-E-SP/PIC18F2431-E-SP-ND/613546?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 8200 2250 50  0001 L BNN "Field6"
+F 7 "Microchip" H 8200 2250 50  0001 L BNN "Field7"
+F 8 "MCU 8-bit PIC18 PIC RISC 16KB Flash 5V 28-Pin SPDIP Tube" H 8200 2250 50  0001 L BNN "Field8"
+	1    8200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Raspberry_Pi_2_3 J2
+U 1 1 5DE8F286
+P 5250 5950
+F 0 "J2" H 5250 7431 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 5250 7340 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5250 5950 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5250 5950 50  0001 C CNN
+	1    5250 5950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
