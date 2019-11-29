@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 09665526612
+D Harting D-Sub Standard Series 2.76mm Pitch 50 Way Right Angle Through Hole Mount PCB D-sub Connector, Socket
+K
+F https://componentsearchengine.com/Datasheets/1/09665526612.pdf
+$ENDCMP
+#
+#End Doc Library
