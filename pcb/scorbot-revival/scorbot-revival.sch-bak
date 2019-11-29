@@ -215,4 +215,25 @@ Text Label 1500 3500 2    50   ~ 0
 LOGIC_ENABLE_MOTORS
 Text Label 1500 4100 2    50   ~ 0
 LOGIC_ENABLE_MOTORS
+Text Label 4450 6150 2    50   ~ 0
+LOGIC_ENABLE_MOTORS
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5E136646
+P 2150 700
+F 0 "J3" H 2230 692 50  0000 L CNN
+F 1 "Conn_01x02" H 2230 601 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2150 700 50  0001 C CNN
+F 3 "~" H 2150 700 50  0001 C CNN
+	1    2150 700 
+	1    0    0    -1  
+$EndComp
+Text Label 1950 700  2    50   ~ 0
+12V+
+Text Label 1950 800  2    50   ~ 0
+12V-
+Text Label 5050 4650 1    50   ~ 0
+LOGIC_5V+
+Text Label 5450 7250 3    50   ~ 0
+LOGIC_GND
 $EndSCHEMATC
