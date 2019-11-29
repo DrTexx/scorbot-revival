@@ -2,4 +2,5 @@
   (lib (name L293D)(type Legacy)(uri ${KIPRJMOD}/project_specific_libraries/L293D/L293D.lib)(options "")(descr ""))
   (lib (name smisioto_connectors)(type Legacy)(uri ${KIPRJMOD}/project_specific_libraries/smisioto_connectors/w_connectors.lib)(options "")(descr ""))
   (lib (name LibraryLoaderLib)(type Legacy)(uri ${KIPRJMOD}/project_specific_libraries/LibraryLoaderOutput/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name PIC16CE625-04I/P)(type Legacy)(uri ${KIPRJMOD}/project_specific_libraries/ul_PIC16CE62504IP/ul_PIC16CE62504IP.lib)(options "")(descr ""))
 )
