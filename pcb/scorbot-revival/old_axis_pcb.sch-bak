@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Scorbot Revival - Axis PCB-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -208,12 +209,12 @@ Wire Wire Line
 $Comp
 L Scorbot-Revival---Axis-PCB-rescue:ProMicro-promicro U2
 U 1 1 5CE524B2
-P 6950 3650
-F 0 "U2" H 6950 4600 60  0000 C CNN
-F 1 "ProMicro" H 6950 3100 60  0000 C CNN
-F 2 "promicro:ProMicro" H 7050 2600 60  0000 C CNN
-F 3 "" H 7050 2600 60  0000 C CNN
-	1    6950 3650
+P 6800 3650
+F 0 "U2" H 6800 4600 60  0000 C CNN
+F 1 "ProMicro" H 6800 3100 60  0000 C CNN
+F 2 "promicro:ProMicro" H 6900 2600 60  0001 C CNN
+F 3 "" H 6900 2600 60  0000 C CNN
+	1    6800 3650
 	1    0    0    -1  
 $EndComp
 $Comp
