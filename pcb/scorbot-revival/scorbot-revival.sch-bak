@@ -120,43 +120,43 @@ Text Label 1250 1150 0    25   ~ 0
 M5_LOGIC_MS
 Text Label 1250 1950 0    25   ~ 0
 Grp_LOGIC_MS
-Text Label 4850 7250 3    25   ~ 0
+Text Label 3550 7200 3    25   ~ 0
 M1_LOGIC_GND
-Text Label 4950 7250 3    25   ~ 0
+Text Label 3650 7200 3    25   ~ 0
 M2_LOGIC_GND
-Text Label 5050 7250 3    25   ~ 0
+Text Label 3750 7200 3    25   ~ 0
 M3_LOGIC_GND
-Text Label 5150 7250 3    25   ~ 0
+Text Label 3850 7200 3    25   ~ 0
 M4_LOGIC_GND
-Text Label 5250 7250 3    25   ~ 0
+Text Label 3950 7200 3    25   ~ 0
 M5_LOGIC_GND
-Text Label 5350 7250 3    25   ~ 0
+Text Label 4050 7200 3    25   ~ 0
 Grp_LOGIC_GND
 $Comp
 L PIC18F2431-E_SP:PIC18F2431-E_SP U2
 U 1 1 5E01D5FD
-P 8200 2250
-F 0 "U2" H 8200 3620 50  0000 C CNN
-F 1 "PIC18F2431-E_SP" H 8200 3529 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 8200 2250 50  0001 L BNN
-F 3 "PIC18F2431-E/SP-ND" H 8200 2250 50  0001 L BNN
-F 4 "SPDIP-28 Microchip" H 8200 2250 50  0001 L BNN "Field4"
-F 5 "PIC18F2431-E/SP" H 8200 2250 50  0001 L BNN "Field5"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/PIC18F2431-E-SP/PIC18F2431-E-SP-ND/613546?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 8200 2250 50  0001 L BNN "Field6"
-F 7 "Microchip" H 8200 2250 50  0001 L BNN "Field7"
-F 8 "MCU 8-bit PIC18 PIC RISC 16KB Flash 5V 28-Pin SPDIP Tube" H 8200 2250 50  0001 L BNN "Field8"
-	1    8200 2250
+P 5800 2100
+F 0 "U2" H 5800 3470 50  0000 C CNN
+F 1 "PIC18F2431-E_SP" H 5800 3379 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5800 2100 50  0001 L BNN
+F 3 "PIC18F2431-E/SP-ND" H 5800 2100 50  0001 L BNN
+F 4 "SPDIP-28 Microchip" H 5800 2100 50  0001 L BNN "Field4"
+F 5 "PIC18F2431-E/SP" H 5800 2100 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/PIC18F2431-E-SP/PIC18F2431-E-SP-ND/613546?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5800 2100 50  0001 L BNN "Field6"
+F 7 "Microchip" H 5800 2100 50  0001 L BNN "Field7"
+F 8 "MCU 8-bit PIC18 PIC RISC 16KB Flash 5V 28-Pin SPDIP Tube" H 5800 2100 50  0001 L BNN "Field8"
+	1    5800 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Raspberry_Pi_2_3 J2
 U 1 1 5DE8F286
-P 5250 5950
-F 0 "J2" H 5250 7431 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 5250 7340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5250 5950 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5250 5950 50  0001 C CNN
-	1    5250 5950
+P 3950 5900
+F 0 "J2" H 3950 7381 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 3950 7290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3950 5900 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 3950 5900 50  0001 C CNN
+	1    3950 5900
 	1    0    0    -1  
 $EndComp
 Text Label 1900 2700 2    50   ~ 0
@@ -215,7 +215,7 @@ Text Label 1500 3500 2    50   ~ 0
 LOGIC_ENABLE_MOTORS
 Text Label 1500 4100 2    50   ~ 0
 LOGIC_ENABLE_MOTORS
-Text Label 4450 6150 2    50   ~ 0
+Text Label 3150 6100 2    50   ~ 0
 LOGIC_ENABLE_MOTORS
 $Comp
 L Connector_Generic:Conn_01x02 J3
@@ -232,8 +232,8 @@ Text Label 1950 700  2    50   ~ 0
 12V+
 Text Label 1950 800  2    50   ~ 0
 12V-
-Text Label 5050 4650 1    50   ~ 0
+Text Label 3750 4600 1    50   ~ 0
 LOGIC_5V+
-Text Label 5450 7250 3    50   ~ 0
+Text Label 4150 7200 3    50   ~ 0
 LOGIC_GND
 $EndSCHEMATC
